@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: Saee25
           outputs: |
-            dist/github-snake.svg?color_snake=%234B5563&color_dots=%23ebedf0,%23fce7f3,%23fbcfe8,%23f472b6,%23db2777
-            dist/github-snake-dark.svg?color_snake=%239CA3AF&color_dots=%23161b22,%23631634,%23831843,%239d174d,%23be185d
+            dist/github-snake.svg?color_snake=%236D5DFC&color_dots=%2309090D,%23332B66,%236D5DFC,%238B7CFF,%235BC0EB
+            dist/github-snake-dark.svg?color_snake=%23E9D5FF&color_dots=%2309090D,%23241E46,%236D5DFC,%238B7CFF,%235BC0EB
 
       - name: Publish generated snake
         uses: crazy-max/ghaction-github-pages@v5

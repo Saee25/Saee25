@@ -1,36 +1,33 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Soft light grey background -->
+
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FDFBFD"/>
-      <stop offset="0.5" stop-color="#F4F4F6"/>
-      <stop offset="1" stop-color="#F8F8FA"/>
+      <stop stop-color="#F8F6FF"/>
+      <stop offset="0.5" stop-color="#F4F2FB"/>
+      <stop offset="1" stop-color="#F5F8FC"/>
     </linearGradient>
 
-    <!-- Aurora Pink -->
-    <radialGradient id="pink-aurora" cx="0" cy="0" r="1"
+    <radialGradient id="violet" cx="0" cy="0" r="1"
       gradientUnits="userSpaceOnUse"
       gradientTransform="translate(350 110) rotate(25) scale(420 190)">
-      <stop stop-color="#F472B6" stop-opacity="0.25"/>
-      <stop offset="0.45" stop-color="#FB7185" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#FB7185" stop-opacity="0"/>
+      <stop stop-color="#8B5CF6" stop-opacity="0.20"/>
+      <stop offset="0.45" stop-color="#7C3AED" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Aurora Grey -->
-    <radialGradient id="grey-aurora" cx="0" cy="0" r="1"
+    <radialGradient id="blue" cx="0" cy="0" r="1"
       gradientUnits="userSpaceOnUse"
       gradientTransform="translate(900 300) rotate(-20) scale(430 180)">
-      <stop stop-color="#94A3B8" stop-opacity="0.20"/>
-      <stop offset="0.5" stop-color="#64748B" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#64748B" stop-opacity="0"/>
+      <stop stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#2563EB" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Soft central glow -->
     <radialGradient id="glow" cx="0" cy="0" r="1"
       gradientUnits="userSpaceOnUse"
       gradientTransform="translate(610 200) scale(330 110)">
-      <stop stop-color="#FB7185" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#FB7185" stop-opacity="0"/>
+      <stop stop-color="#8B5CF6" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
 
     <filter id="blur">
@@ -48,28 +45,29 @@
         <feFuncA type="table" tableValues="0 0.035"/>
       </feComponentTransfer>
     </filter>
+
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
 
-  <!-- Aurora fields (Animation slowed down x2) -->
+  <!-- Aurora -->
   <ellipse
     cx="350"
     cy="110"
     rx="420"
     ry="190"
-    fill="url(#pink-aurora)"
+    fill="url(#violet)"
     filter="url(#blur)">
     <animate
       attributeName="cx"
       values="350;430;350"
-      dur="28s"
+      dur="14s"
       repeatCount="indefinite"/>
     <animate
       attributeName="cy"
       values="110;145;110"
-      dur="34s"
+      dur="17s"
       repeatCount="indefinite"/>
   </ellipse>
 
@@ -78,17 +76,17 @@
     cy="300"
     rx="430"
     ry="180"
-    fill="url(#grey-aurora)"
+    fill="url(#blue)"
     filter="url(#blur)">
     <animate
       attributeName="cx"
       values="900;820;900"
-      dur="32s"
+      dur="16s"
       repeatCount="indefinite"/>
     <animate
       attributeName="cy"
       values="300;270;300"
-      dur="38s"
+      dur="19s"
       repeatCount="indefinite"/>
   </ellipse>
 
@@ -101,28 +99,28 @@
     filter="url(#blur)"/>
 
   <!-- Small stars -->
-  <g fill="#9CA3AF">
-    <circle cx="92" cy="74" r="1.2" opacity="0.45"/>
-    <circle cx="180" cy="315" r="1" opacity="0.35"/>
-    <circle cx="280" cy="58" r="1.3" opacity="0.40"/>
-    <circle cx="470" cy="86" r="0.9" opacity="0.35"/>
-    <circle cx="690" cy="62" r="1" opacity="0.35"/>
-    <circle cx="820" cy="115" r="1.2" opacity="0.38"/>
-    <circle cx="1050" cy="78" r="0.9" opacity="0.32"/>
-    <circle cx="1120" cy="280" r="1.2" opacity="0.38"/>
-    <circle cx="1010" cy="360" r="0.9" opacity="0.30"/>
-    <circle cx="760" cy="350" r="1.1" opacity="0.28"/>
-    <circle cx="520" cy="350" r="0.8" opacity="0.32"/>
-    <circle cx="120" cy="220" r="0.8" opacity="0.28"/>
+  <g fill="#7C3AED">
+    <circle cx="92" cy="74" r="1.2" opacity="0.32"/>
+    <circle cx="180" cy="315" r="1" opacity="0.22"/>
+    <circle cx="280" cy="58" r="1.3" opacity="0.30"/>
+    <circle cx="470" cy="86" r="0.9" opacity="0.25"/>
+    <circle cx="690" cy="62" r="1" opacity="0.25"/>
+    <circle cx="820" cy="115" r="1.2" opacity="0.28"/>
+    <circle cx="1050" cy="78" r="0.9" opacity="0.22"/>
+    <circle cx="1120" cy="280" r="1.2" opacity="0.28"/>
+    <circle cx="1010" cy="360" r="0.9" opacity="0.20"/>
+    <circle cx="760" cy="350" r="1.1" opacity="0.18"/>
+    <circle cx="520" cy="350" r="0.8" opacity="0.22"/>
+    <circle cx="120" cy="220" r="0.8" opacity="0.18"/>
   </g>
 
   <!-- Constellations -->
-  <g stroke="#9CA3AF" stroke-width="0.7" opacity="0.25">
+  <g stroke="#7C3AED" stroke-width="0.7" opacity="0.15">
     <path d="M180 120 L250 165 L315 125 L370 180"/>
     <path d="M820 245 L875 205 L940 235 L1000 185"/>
   </g>
 
-  <g fill="#9CA3AF" opacity="0.38">
+  <g fill="#7C3AED" opacity="0.28">
     <circle cx="180" cy="120" r="2"/>
     <circle cx="250" cy="165" r="1.5"/>
     <circle cx="315" cy="125" r="1.8"/>
@@ -138,7 +136,7 @@
     x="600"
     y="185"
     text-anchor="middle"
-    fill="#1F2937"
+    fill="#17151F"
     font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     font-size="54"
     font-weight="600"
@@ -152,16 +150,16 @@
     y1="215"
     x2="680"
     y2="215"
-    stroke="#F472B6"
+    stroke="#7C3AED"
     stroke-width="1"
-    opacity="0.45"/>
+    opacity="0.35"/>
 
   <!-- Subtitle -->
   <text
     x="600"
     y="252"
     text-anchor="middle"
-    fill="#6B7280"
+    fill="#625E70"
     font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     font-size="15"
     letter-spacing="4"
@@ -174,10 +172,10 @@
     x="600"
     y="335"
     text-anchor="middle"
-    fill="#FB7185"
+    fill="#7C3AED"
     font-family="Georgia, serif"
     font-size="18"
-    opacity="0.75">
+    opacity="0.55">
     ✦
   </text>
 
