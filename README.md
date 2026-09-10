@@ -17,7 +17,7 @@
   <h3>⚒️ Technologies & Tools</h3>
   <br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,ts,react,fastapi,postgres,aws,docker,git,linux,vscode&theme=dark" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=java,python,js,ts,react,nodejs,fastapi,postgres,mongodb,mysql,pytorch,sklearn,aws,docker,supabase,vercel,git,github,figma,postman&theme=dark" alt="My Skills" />
   </a>
 
   <br /><br /><br />
@@ -38,23 +38,23 @@
   <h3>✨ Things I've been making</h3>
   
   <a href="https://github.com/Saee25/NeevAI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=NeevAI&theme=tokyonight&border_radius=10" alt="NeevAI" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=NeevAI&bg_color=16141A&title_color=F472B6&text_color=9CA3AF&icon_color=BE185D&border_color=2D2933&border_radius=10" alt="NeevAI" />
   </a>
   <a href="https://github.com/Saee25/Workcortex">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=Workcortex&theme=tokyonight&border_radius=10" alt="Workcortex" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=Workcortex&bg_color=16141A&title_color=F472B6&text_color=9CA3AF&icon_color=BE185D&border_color=2D2933&border_radius=10" alt="Workcortex" />
   </a>
   <br/>
   <a href="https://github.com/Saee25/debate-simulator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=debate-simulator&theme=tokyonight&border_radius=10" alt="debate-simulator" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=debate-simulator&bg_color=16141A&title_color=F472B6&text_color=9CA3AF&icon_color=BE185D&border_color=2D2933&border_radius=10" alt="debate-simulator" />
   </a>
   <a href="https://github.com/Saee25/Campus-Assist">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=Campus-Assist&theme=tokyonight&border_radius=10" alt="Campus-Assist" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saee25&repo=Campus-Assist&bg_color=16141A&title_color=F472B6&text_color=9CA3AF&icon_color=BE185D&border_color=2D2933&border_radius=10" alt="Campus-Assist" />
   </a>
 
   <br /><br />
   
   <h3>📈 GitHub Stats</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=Saee25&show_icons=true&theme=tokyonight&border_radius=10" alt="Saee's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Saee25&show_icons=true&bg_color=16141A&title_color=F472B6&text_color=9CA3AF&icon_color=BE185D&border_color=2D2933&border_radius=10" alt="Saee's GitHub Stats" />
 
   <br /><br />
   <i>✦</i>
