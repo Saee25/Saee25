@@ -15,40 +15,16 @@
     />
   </picture>
   <br />
-
-  <i>✦</i>
-
   <br />
 
-  <i>somewhere between making things and wondering what to make next.</i>
-
-  <br />
-  <br />
-
-  <p><b>Languages</b></p>
+  <p><b>Techstack</b></p>
   <p>
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=java,py,js,ts" alt="Languages"/>
-    </a>
-  </p>
-
-  <p><b>Frameworks & Databases</b></p>
-  <p>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,postgres,mongodb,mysql" alt="Frameworks & Databases"/>
-    </a>
-  </p>
-
-  <p><b>AI/ML, Cloud & Tools</b></p>
-  <p>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=pytorch,aws,docker,supabase,vercel,git,github,figma,postman" alt="AI/ML, Cloud & Tools"/>
+      <img src="https://skillicons.dev/icons?i=java,py,js,ts,react,nodejs,fastapi,postgres,mongodb,mysql,pytorch,aws,docker,kubernetes,supabase,vercel,git,github,figma,postman&perline=25" alt="Tech Stack"/>
     </a>
   </p>
 
   <br />
-
-  <p><i>contributions, but make them wander.</i></p>
 
   <picture>
     <source
@@ -68,13 +44,42 @@
 
   <br />
 
-  <p><i>things I've been making</i></p>
+  <p><b>Projects</b></p>
 
-  <p>
-    <a href="https://github.com/Saee25/NaavAI">→ NaavAI</a><br/>
-    <a href="https://github.com/Saee25/SiteSync">→ SiteSync</a><br/>
-    <a href="https://github.com/Saee25/transitops">→ transitops</a>
-  </p>
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <b><a href="https://github.com/Saee25/NaavAI">NaavAI</a></b><br/><br/>
+        A brief description of what NaavAI is and the problem it solves. Replace this text with your actual project description.<br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=py,pytorch,aws" alt="Tech Stack"/>
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <b><a href="https://github.com/Saee25/SiteSync">SiteSync</a></b><br/><br/>
+        A brief description of what SiteSync is and the problem it solves. Replace this text with your actual project description.<br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb" alt="Tech Stack"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <b><a href="https://github.com/Saee25/transitops">transitops</a></b><br/><br/>
+        A brief description of what transitops is and the problem it solves. Replace this text with your actual project description.<br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=java,postgres,docker" alt="Tech Stack"/>
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <b><a href="#">Project 4</a></b><br/><br/>
+        A brief description of what this fourth project is. Replace this text with your actual project description.<br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=ts,react,supabase" alt="Tech Stack"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 
   <br />
 
